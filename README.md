@@ -106,7 +106,7 @@ Here are the custom styles possibilities, using JSX.
 
 ## Demo
 
-Try it on [CodePen](https://codepen.io/sylvaindessureault/pen/RwyeYKr)
+Try it on [CodePen](https://codepen.io/sylvaindessureault/full/jOebByM)
 
 ## License
 
