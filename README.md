@@ -6,11 +6,6 @@ I made this React component used in my Roll A Die And Code app. It is an adaptat
 
 To have a customizable rotating cube React component to show different images, text and backgrounds.
 
-## Further improvements
-
-- [ ] Add function to update state when cube is rotated
-- [ ] Add easier size customization
-
 ## Usage
 
 1. Clone or download this repo and add the `rotating-cube` folder into your `src` folder.
@@ -106,7 +101,9 @@ Here are the custom styles possibilities, using JSX.
 
 ## Demo
 
-Try it on [CodePen](https://codepen.io/sylvaindessureault/full/jOebByM)
+Try it on [CodePen](https://codepen.io/sylvaindessureault/full/YzJojVY)
+
+Try the previous class component version on [CodePen](https://codepen.io/sylvaindessureault/full/jOebByM)
 
 ## License
 

@@ -4,7 +4,7 @@
  * codepen: https://codepen.io/desandro/pen/KRWjzm 
  */
 
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -12,10 +12,31 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border-radius: 5px;
+  background-color: #fe2f29;
+  padding: 4px;
+  color: white;
+  font-size: 20px;
+}
+
+.cube-text:hover {
+  font-size: 20px;
+}
+
 .scene {
   width: 200px;
   height: 200px;
-  margin: 80px;
+  margin: 10px;
   perspective: 400px;
 }
 
@@ -51,11 +72,11 @@ body {
   position: absolute;
   width: 200px;
   height: 200px;
-  border: 2px solid black;
+  border: 1px solid black;
   line-height: 200px;
-  font-size: 40px;
+  font-size: 15px;
   font-weight: bold;
-  color: white;
+  color: #000;
   text-align: center;
 }
 
